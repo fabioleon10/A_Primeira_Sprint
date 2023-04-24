@@ -89,6 +89,26 @@ body {
 
 }
 
+.nav-menu-btn {
+
+    color: var(--color-);
+    font-weight: 600;
+    background: none;
+    border: 2px solid var(--color-);
+    padding: 10px 35px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.nav-menu-btn:hover {
+    font-weight: 600;
+    color: var(--color-light);
+    background-color: var(--color-);
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
 .nav-page .login-btn {
     color: var(--color-);
     font-weight: 600;
@@ -189,8 +209,8 @@ body {
         url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 50%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,6 +330,62 @@ body {
     color: var(--color-light)
 }
 
+#hoteis {
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(to top, var(--gradient-start), var(--gradient-end));
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.maps {
+    padding: 0;
+    overflow:hidden;
+}
+
+.maps img {
+    width: 100%;
+
+}
+
+.hoteis-item {
+    margin: 12px 0 12px 0;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px #ccc;
+    transition: var(--transition);
+}
+
+.hoteis-stars {
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+}
+
+.hoteis-item img {
+    width: 90%;
+    border-radius: 7px;
+}
+
+.hoteis-item h3 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.hoteis-item p {
+    margin: 0 0 30px;
+    width: 80%
+}   
+
 .hoteis-viagem{
     display: flex;
     justify-content: space-between;
@@ -318,6 +394,13 @@ body {
 
 .hoteis-trabalho {
 flex-direction: row;
+}
+
+.hoteis-title {
+    text-align: left;
+    font-size: 6vmin;
+    color: #ccc;
+    padding: 0px 46px;
 }
 
 .secao-hoteis img{
@@ -350,6 +433,18 @@ border-radius: var(--border-radius);
     gap: 50px;
     margin: 20px 20px;
 }
+
+.hoteis {
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 50%;
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .hotel1 {
     border: 2px solid #000;
