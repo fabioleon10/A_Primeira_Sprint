@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Gulliver Traveller - Encontre onde se hospedar!</title>
+</head>
+<body>
+    <div class="nav-page">
+        <div>
+            <h1 class="nav-logo"> Gulliver Traveller</h1>
+        </div>
+        <nav class="nav-menu">
+
+            
+
+            <ul class="nav-menu-list">
+                <li><a href="#categorias" class="nav-menu-item">Categorias</a></li>
+                <li><a href="#hoteis" class="nav-menu-item">Hotéis</a></li>
+                <li><a href="#avaliacao" class="nav-menu-item">Avaliação</a></li>
+                <li><a href="" class="nav-menu-item">Registre-se</a></li>
+                <button class="login-btn">Login</button>
+            </ul>
+        </nav>
+            <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown-menu">
+            <li><a href="#categorias" class="nav-menu-item">Categorias</a></li>
+            <li><a href="#hoteis" class="nav-menu-item">Hotéis</a></li>
+            <li><a href="#avaliacao" class="nav-menu-item">Avaliação</a></li>
+            <li><a href="" class="nav-menu-item">Registre-se</a></li>
+            <li><button class="login-btn">Login</button></li>
+        </div>
+    </div>
+
+
+
+    <header class="hero">
+        <h2 class="hero-title">Vamos Viajar?</h2>
+        <p class="hero-text">
+            Não importa se você está procurando uma escapada romântica para dois, uma aventura em família ou uma viagem
+            de negócios, temos o lugar perfeito para te indicar. <br> Explore nossa seleção de hotéis e reserve hoje
+            mesmo!
+        </p>
+    </header>
+
+    <section class="categorias" id="categorias">
+        <h2 class="categorias-title">Categorias</h2>
+        <div class="categorias-items">
+            <div class="categorias-img1"><a href="" class="categorias-btn">Trabalho</a></div>
+            <div class="categorias-img2"><a href="" class="categorias-btn">Lazer</a></div>
+            <div class="categorias-img3"><a href="" class="categorias-btn">Negócios</a></div>
+        </div>
+
+    </section>
+
+
+    <section class="hoteis" id="hoteisTrabalho">
+        <h2 class="hoteis-title">Hotéis</h2>
+        <div class="trabalho">
+            <div class="hotel-img1">
+                <div class="estrelas"></div>
+                <a href=""></a>
+                <div class="endereco"></div>
+            </div>
+            <div class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, accusamus quia
+                omnis ut, officiis corrupti maxime illum quidem sunt culpa eveniet fuga magni voluptas quis laboriosam
+                aspernatur sint porro quo.</div>
+            <div class="localizacao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, magni maxime porro
+                doloremque reiciendis sapiente excepturi corrupti veritatis fugit, tempora eaque exercitationem, ducimus
+                cumque blanditiis.</div>
+        </div>
+
+    </section>
+
+    <section class="avaliacao" id="avaliacao">
+        <div class="avaliacao-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Avaliar Hotéis</h2>
+                <div class="avaliacao-form-item">
+
+
+
+                    <input class="datalist-input" list="hoteis-list" id="hoteisInput" placeholder="Escolher hotel"
+                        required>
+                    <datalist id="hoteis-list">
+                        <option value="Hotel 1">
+                        <option value="Hotel 2">
+                        <option value="Hotel 3">
+                        <option value="Hotel 4">
+                        <option value="Hotel 5">
+                        <option value="Hotel 6">
+                        <option value="Hotel 7">
+                        <option value="Hotel 8">
+                        <option value="Hotel 9">
+                    </datalist>
+
+                </div>
+
+                <div class="avaliacao-form-item">
+
+                    <div class="avaliacao-form-radio">
+                        <input type="radio" name="radioStars" id="stars-1" value="1">
+                        <label for="stars-1"><i class="fa-solid fa-star stars"></i></label>
+                    </div>
+
+                    <div class="box-fotm-radio">
+                        <input type="radio" name="radioStars" id="stars-2" value="2">
+                        <label for="stars-2"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star stars"></i></label>
+                    </div>
+
+                    <div class="box-fotm-radio">
+                        <input type="radio" name="radioStars" id="stars-3" value="3">
+                        <label for="stars-3"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></label>
+                    </div>
+                    <div class="box-fotm-radio">
+                        <input type="radio" name="radioStars" id="stars-4" value="3">
+                        <label for="stars-4"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star stars"></i></label>
+                    </div>
+                    <div class="box-fotm-radio">
+                        <input type="radio" name="radioStars" id="stars-5" value="3">
+                        <label for="stars-5"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></label>
+                    </div>
+
+                </div>
+
+                <input type="text" class="avaliacao-box-item" placeholder="Seu Nome" minlength="2">
+                <textarea class="avaliacao-box-item area" placeholder="Mensagem" maxlength="140"></textarea>
+                <button class="avaliacao-box-btn">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-items">
+            <h4>Navegação</h4>
+            <nav>
+                <ul class="nav-footer">
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="#hoteis">Hotéis</a></li>
+                    <li><a href="#avaliacao">Avaliação</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="footer-items">
+            <h4>Serviços</h4>
+            <nav>
+                <ul class="nav-footer">
+                    <li><a href="">Reservas</a></li>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Gastronomia</a></li>
+                    <li><a href="">Quartos</a></li>
+                    <li><a href="">Check-in</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-items">
+            <h4>Contatos</h4>
+            <h3>Telefones</h3>
+            <p>(11) 3385-8010</p>
+            <p>(11) 3385-8010</p>
+
+            <h3>E-mail</h3>
+            <p>gulliver@traveller.com</p>
+            <h3>Endereço</h3>
+            <address>Av. Paulista, 1200 - SP</address>
+        </div>
+
+
+    </footer>
+
+    <div class="credits">
+        <h2>Gulliver Traveller</h2>
+        <div class="footer-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+    </div>
+
+
+    <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/menu.js"></script>
+
+</body>
+
+</html>
