@@ -249,7 +249,6 @@ body {
     text-align: center;
     font-size: 6vmin;
     margin-bottom: 40px;
-
 }
 
 .categorias-items {
@@ -266,7 +265,7 @@ body {
 
 .categorias-items div {
     width: 30%;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -333,12 +332,20 @@ body {
 #hoteis {
     width: 100%;
     min-height: 90vh;
-    background: linear-gradient(to top, var(--gradient-start), var(--gradient-end));
+    /* background: linear-gradient(to top, #050c29b9, #b3691fab);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+/* #negocios{
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(to top, #050c29b9, #b3691fab);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
+} */
 
 .hoteis {
     margin: 0 auto;
@@ -352,9 +359,19 @@ body {
     justify-content: center;
 }
 
+
 .conteiner {
     display: flex;
     gap: 20px;
+}
+
+.box{
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(to top, #050c29b9, #b3691fab);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .descricao {
@@ -438,8 +455,8 @@ flex-direction: row;
 .hoteis-title {
     text-align: left;
     font-size: 6vmin;
-    color: #ccc;
-    padding: 0px 46px;
+    color: #fff;
+    padding: 12px 46px;
 }
 
 .secao-hoteis img{
