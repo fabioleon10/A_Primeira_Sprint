@@ -370,6 +370,10 @@ body {
     transition: var(--transition);
 }
 
+.text{
+    max-width: 600px;
+}
+
 .maps {
     padding: 0;
     overflow: hidden;
@@ -380,6 +384,8 @@ body {
     width: 100%;
     margin: 0;
     border-radius: 7px;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .hoteis-item {
@@ -403,8 +409,10 @@ body {
 }
 
 .hoteis-item img {
-    width: 90%;
+    width: 100%;
     border-radius: 7px;
+    width: 600px;
+    height: 400px;
 }
 
 .hoteis-item h3 {
@@ -777,6 +785,10 @@ div {
         display: block;
         }
     
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+    }    
     }
 
 @media(max-width: 555px) {
