@@ -27,7 +27,7 @@ body {
     --border-radius: 5px;
     --transition: .5s;
     --gradient-start: rgba(4, 9, 30, 0.425);
-    --gradient-end: rgba(4, 5, 12, 0.76);
+    --gradient-end: rgba(4, 5, 12, 0.459);
 
 }
 
@@ -219,6 +219,9 @@ body {
     text-align: center;
 }
 
+.banner img {
+    height: 100vh;
+}
 .card-title {
 
     text-align: center;
