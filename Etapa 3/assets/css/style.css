@@ -246,9 +246,17 @@ body {
     z-index: 0;
 }
 
+.carousel-content h3{
+    
+}
+
+.carousel-text{
+    margin-top: 50px;
+}
+
 .carousel-img {
-    height: 250px;
-    width: 300px;
+    height: 30vh;
+    width: 40vw;
 }
 
 .carousel-control-prev-icon {
@@ -351,7 +359,6 @@ div {
 }
 
 
-
 @media(max-width:1024px) {
     .footer {
         justify-content: center;
@@ -389,6 +396,10 @@ div {
 }
 
 @media(max-width: 555px) {
+
+    .carousel-content{
+        flex-direction: column;
+    }
 
     .nav-logo {
         font-size: 30px;
