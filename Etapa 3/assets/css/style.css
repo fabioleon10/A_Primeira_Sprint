@@ -456,7 +456,8 @@ div {
 
 @media(max-width: 555px) {
 
-    .carousel-content{
+
+    .carousel-content {
         flex-direction: column;
     }
 
@@ -471,6 +472,22 @@ div {
     .footer-items {
         width: 100%;
     }
+
+    .carousel-title{
+        font-size: 28px;
+    }
+
+    .carousel-text{
+        margin-top: 30px;
+        font-size: 8px;
+        padding: 20px;
+    }
+    .carousel-img {
+        height: 33vh;
+        width: 33vw;
+        margin-bottom: 50px;
+        margin-left:30px;
+        margin-right: 30px;
 }
 
 @media(max-width:454px) {
