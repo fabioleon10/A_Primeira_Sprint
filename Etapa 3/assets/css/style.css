@@ -323,6 +323,10 @@ background-color: #292929;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+span {
+    color: var(--color-);
+    font-weight: 700;
+}
 
 /* FOOTER */
 
@@ -419,6 +423,7 @@ div {
 
 @media(max-width:1024px) {
 
+  
     .footer {
         justify-content: center;
     }
@@ -448,8 +453,7 @@ div {
         display: block;
     }
 
-    .container {
-        display: flex;
+    .carousel1 .carousel-item{
         flex-direction: column;
     }
 }
@@ -482,4 +486,5 @@ div {
         width: 85vw;
         height: 80vh;
     }
+
 }
