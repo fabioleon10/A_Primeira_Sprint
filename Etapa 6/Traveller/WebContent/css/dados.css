@@ -1,0 +1,70 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2b138;
+}
+
+main {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.endereco {
+	display: flex;
+	flex-direction: column;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    gap: 16px;
+}
+
+
+.infoBasic {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+    margin-top: 30px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.infoContact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+a {
+    align-self: center;
+}
+
+button {
+    border: none;
+    background: #494848;
+    padding: 7px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 72px;
+    direction: ltr;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
